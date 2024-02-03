@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <div class="left-heading">
+          <div class="logo">
+            <a href="/user/frontend/index.html"
+              ><img src="/images/logo.png" alt=""
+            /></a>
+          </div>
+          <div class="search-bar">
+            <form class="search-form">
+              <input type="search" name="search" placeholder="search.." />
+              <input type="submit" value="submit" name="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="right-heading">
+          <div class="login-status">
+            <div class="login" title="login"><i class='bx bx-log-in-circle'></i></div>
+            <div class="register" title="register"><i class='bx bx-user-x' ></i></i></div>
+            <div class="logout" title="logout"><i class='bx bx-log-out-circle' ></i></div>
+            <div class="logged-user" title="logged user">
+                <i class='bx bx-user-plus'></i> <span class="username">username</span>
+            </div>
+          </div>
+          <div class="cart"><i class='bx bx-cart' ></i></div>
+        </div>
+      </div>
+      <div class="navigation"></div>
+    </header>
+    <main>
+      <section class="featured-products">
+        <h2>Featured Products</h2>
+      </section>
+      <section class="new-arrivals">
+        <h2>New Arrivals</h2>
+      </section>
+      
+    </main>
+    <footer>
+      <div class="social-share">
+        <ul>
+          <li><i class='bx bxl-facebook-circle'></i></li>
+          <li><i class='bx bxl-instagram' ></i></li>
+          <li><i class='bx bxl-pinterest' ></i></li>
+          <li><i class='bx bxl-tiktok' ></i></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="global.js" defer></script>
+    <script src="menu.js"></script>
+    <script src="featured.js"></script>
+    <script src="newArrivals.js"></script>
+    <script src="login.js"></script>
+    <script src="register.js"></script>
+    <script src="cart.js"></script>
+    <script src="checkout.js"></script>
+  </body>
+</html>
